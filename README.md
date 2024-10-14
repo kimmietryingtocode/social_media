@@ -16,20 +16,14 @@ This is a social media application designed to connect users, enabling them to s
 ## Tech Stack
 
 - **Frontend**:
-  - HTML/CSS/JavaScript
+  - Tailwind CSS
   - React.js
-  - Bootstrap
 
 - **Backend**:
   - Node.js
-  - Express.js
-  - MongoDB (Mongoose)
+  - React Query
+  - Appwrite
 
 - **Authentication**:
-  - JWT (JSON Web Token)
-
-- **Other Tools**:
-  - Cloudinary (Image hosting)
-  - Socket.io (Real-time messaging)
-  - Bcrypt.js (Password encryption)
+  - AppWrite API
 
