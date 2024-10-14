@@ -4,7 +4,7 @@ This is a social media application designed to connect users, enabling them to s
 
 ## Features
 
-- **User Authentication**: Secure login and registration using JWT authentication.
+- **User Authentication**: Secure login and registration using Appwrite's built-in authentication.
 - **Profile Management**: Users can create and edit profiles with bio, profile picture, and personal information.
 - **Post Creation**: Users can create, edit, and delete posts with text and media.
 - **Likes and Comments**: Engage with posts by liking and commenting.
@@ -20,10 +20,16 @@ This is a social media application designed to connect users, enabling them to s
   - React.js
 
 - **Backend**:
-  - Node.js
-  - React Query
-  - Appwrite
+  - Appwrite (Backend-as-a-Service for user authentication, database, storage, and real-time features)
+  - Node.js (For handling custom business logic)
+
+- **Database**:
+  - Appwrite's Database
+
+- **Storage**:
+  - Appwrite's File Storage (for media uploads)
 
 - **Authentication**:
-  - AppWrite API
+  - Appwrite's built-in user authentication
+
 
